@@ -22,7 +22,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Theme CSS -->
-    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
 </head>
 
@@ -46,7 +46,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#aboutme">About Me</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Projects</a>
@@ -69,18 +69,18 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
+        <div class="fullPageBG">
             <div class="intro-text">
                 <div class="intro-lead-in">
                     Hi, I'm <span id="typingAnimation"></span>
                     <p class="sub-tagline">Engineering Student / Developer / Producer</p>
                 </div>                
             </div>
-        </div>
+            </div>
     </header>
 
-    <!-- Services Section -->
-    <section id="services">
+    <!-- About Me Section -->
+    <section id="aboutme">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -91,8 +91,8 @@
                     <img class="img-circle img-responsive" src="img/team/sunny.jpg" alt="">
                 </div>
                 </div>
-                <div class="col-lg-12 text-center"
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-subheading text-muted"> [Description in large text-muted].</h3>
                 </div>
             </div>
             <div class="row text-center">
@@ -101,24 +101,24 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Sports</h4>
+                    <p class="text-muted">[Sports Description].</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">[Tech]</h4>
+                    <p class="text-muted">[Insert Tech Industry]</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">[Music]</h4>
+                    <p class="text-muted">[Insert music description]</p>
                 </div>
             </div>
         </div>
@@ -130,7 +130,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Portfolio Description</h3>
                 </div>
             </div>
             <div class="row">
@@ -304,6 +304,7 @@
     </section>
 
     <!-- Team Section -->
+<!--
     <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -366,6 +367,7 @@
             </div>
         </div>
     </section>
+-->
 
     <!-- Clients Aside -->
     <aside class="clients">
@@ -396,6 +398,7 @@
     </aside>
 
     <!-- Contact Section -->
+<!--
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -439,6 +442,7 @@
             </div>
         </div>
     </section>
+-->
 
     <footer>
         <div class="container">
@@ -659,10 +663,6 @@
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
 
@@ -670,22 +670,15 @@
 
         <script>
           $(function(){
-              if($(window).width() > 640) {
-                  $("#typingAnimation").typed({
-                    strings: ["an engineering student", "data driven", "Shikhar"],
-                    typeSpeed: 50,
-                    backDelay: 1000,
-                    loopCount: false,
-                    callback: function(){
-                         lift();
-                    }
+              $("#typingAnimation").typed({
+              strings: ["an engineering student", "data driven", "Shikhar"],
+              typeSpeed: 50,
+              backDelay: 1000,
+              loopCount: false,
+              callback: function(){
+              lift();}
                   });
-              } else {
-                    $(".typing").hide();
-                    $("#typed-cursor").hide();
-                    $("#typeAnimation").hide();
-              }
-          });
+              });
         function lift(){
             $(".intro-lead-in").addClass("lift-text");
     }
