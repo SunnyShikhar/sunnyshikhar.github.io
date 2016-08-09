@@ -279,13 +279,14 @@ header .intro-text .intro-typing {
 
 .sub-tagline {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 22px;
   margin-top: 25px;
   padding-top: 100px;
   margin-bottom: 25px;
   margin: 0;
   opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   -webkit-transition: all 0.7s ease-in-out;
   -moz-transition: all 0.7s ease-in-out;
