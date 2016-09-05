@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Agency v1.1.1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -14,7 +9,7 @@ body {
   color: #00BFFF;
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.75;
 }
 p.large {
@@ -231,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/mic.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -346,12 +341,11 @@ section h2.section-heading {
   margin-bottom: 15px;
 }
 section h3.section-subheading {
-  font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
   text-transform: none;
-  font-style: italic;
   font-weight: 400;
-  margin-bottom: 75px;
+  margin-bottom: 25px;
 }
 @media (min-width: 768px) {
   section {
@@ -596,7 +590,7 @@ section h3.section-subheading {
 }
 .team-member {
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 .team-member img {
   margin: 0 auto;
