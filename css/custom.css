@@ -9,8 +9,8 @@ body {
   color: #00BFFF;
 }
 p {
-  font-size: 15px;
-  line-height: 1.75;
+  font-size: 16px;
+  line-height: 1.50;
 }
 p.large {
   font-size: 16px;
@@ -40,6 +40,7 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  line-height: 1.2;
 }
 .img-centered {
   margin: 0 auto;
@@ -364,6 +365,7 @@ section h3.section-subheading {
   display: block;
   position: relative;
   max-width: 400px;
+  max-height: 250px;
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
