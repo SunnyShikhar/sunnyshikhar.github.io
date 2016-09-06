@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shikhar Gaur's Website">
+    <meta name="author" content="Shikhar Gaur">
+
+    <title>Shikhar Gaur</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Header -->
+    <header>
+        <div class="fullPageBG">
+            <div class="intro-text">
+                <div class="intro-lead-in">
+                    Hi, I'm <span id="typingAnimation"></span>
+                    <p class="sub-tagline">Wait on it, September 2016.</p>
+                </div>                
+            </div>
+            </div>
+    </header>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+<script src="js/typed.js"></script>
+
+        <script>
+          $(function(){
+              $("#typingAnimation").typed({
+              strings: ["currently developing this site", "confident it will be done soon", "thankful for your patience"],
+              typeSpeed: 30,
+              backDelay: 1000,
+              loopCount: false,
+              callback: function(){
+              lift();}
+                  });
+              });
+        function lift(){
+            $(".intro-lead-in").addClass("lift-text");
+    }
+        </script>
+
+</body>
+
+</html>
