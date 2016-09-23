@@ -8,6 +8,9 @@ body {
 .text-primary {
   color: #00BFFF;
 }
+.interest-desc{
+  color: #999999;
+}
 p {
   font-size: 16px;
   line-height: 1.50;
@@ -356,6 +359,12 @@ section h3.section-subheading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-fa {
+  background: white;
+  height: 100%;
+  width: 100%;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -621,6 +630,11 @@ section h3.section-subheading {
 .team-member p {
   margin-top: 0;
 }
+
+section#interests .section-heading{
+  color: white;
+}
+
 aside.clients img {
   margin: 50px auto;
 }
