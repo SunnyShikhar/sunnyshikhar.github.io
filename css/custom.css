@@ -230,7 +230,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/mic.jpg');
+  background-image: url('../img/elCap.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -265,7 +265,7 @@ header .intro-text .intro-typing {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
-  line-height: 22px;  
+  line-height: 22px;
   max-width: 400px;
   height: auto;
   margin-left: auto;
@@ -297,9 +297,9 @@ header .intro-text .intro-typing {
     opacity: 0;
   -webkit-transition: all 0.7s ease-in-out;
   -moz-transition: all 0.7s ease-in-out;
-  -o-transition: all 0.7s ease-in-out;  
+  -o-transition: all 0.7s ease-in-out;
   -ms-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out; 
+  transition: all 0.7s ease-in-out;
   }
 
 .lift-text .intro-lead-in {
@@ -324,10 +324,10 @@ header .intro-text .intro-heading {
     min-height: 100%;
     background-size: cover;
     }
-  
-    
-      
-  
+
+
+
+
   header .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
@@ -843,6 +843,14 @@ img::-moz-selection {
 }
 
 #typingAnimation {
+  max-width: 400px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgba(138, 138, 138, 0.8);
+  border-radius: 20px;
+  padding: 5px;
   color: #00BFFF;
 }
 body {
