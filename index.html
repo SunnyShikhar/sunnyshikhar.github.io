@@ -75,7 +75,7 @@
                     <ul class="list-inline social-buttons down-arrow">
                         <li><a class="page-scroll" href="#aboutme"><i class="fa fa-angle-down fa-2x"></i></a>
                         </li>
-                    </ul>                
+                    </ul>
             </div>
             </div>
     </header>
@@ -125,9 +125,9 @@
                 <div class="col-md-4">
                 </div>
             </div>
-            
+
             <br>
-            
+
             <div class="row text-center">
                 <div class="col-md-4 col-md-offset-2">
                     <span class="fa-stack fa-4x">
@@ -146,9 +146,9 @@
                     <p class="interest-desc">I am fascinated by technology. Social media has allowed me to communicate with friends and family across the world while wearable tech has improved my daily lifestyle.</p>
                 </div>
             </div>
-            
+
             <br>
-            
+
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -242,7 +242,7 @@
                     <div class="portfolio-caption">
                         <h4>Tool Database Solution</h4>
                         <p class="text-muted">MySQL, PHP, HTML, CSS</p>
-                    </div>   
+                    </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
@@ -270,7 +270,7 @@
                     <div class="portfolio-caption">
                         <h4>Website</h4>
                         <p class="text-muted">HTML, JS, CSS</p>
-                    </div>                    
+                    </div>
                 </div>
             </div>
         </div>
@@ -334,7 +334,7 @@
                                 <div id="item3" class="timeline-body collapse">
                                     <p class="text-muted">
                                     "Shikhar (Sunny) worked well among the team and with his supervisor. He is enthusiastic and eager to learn. Sunny followed instructions very well, accepted feedback, and was always positive in accepting added responsibilities and helping the team. He took the lead in producing a highly visible report for weekly distribution, and liased with different supervisors and departments. Overall, Sunny has been a great contribution to the team." <br>
-                                        
+
                                     <h5>- Selina Chang, Team Manager</h5> </p>
                             </div>
                         </li>
@@ -369,7 +369,7 @@
                                     <h5>- Leo Guglielmi, Hiring Manager </h5></p>
                                 </div>
                             </div>
-                        </li>    
+                        </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <input id="timeline-pic-hover" type="image" src="img/timeline/ultimatesoftware.jpg" class ="img-circle img-responsive" data-toggle="collapse" data-target="#item6"/>
@@ -466,7 +466,7 @@
                     <div class="lr">
                         <div class="rl">
                         </div>
-                    </div>  
+                    </div>
                 </div>
                 <div class="container">
                     <div class="row">
@@ -476,7 +476,7 @@
                                 <p class="item-intro text-muted">Designed and developed a Database Storage System, using MariaDB.</p>
                                  <img class="img-responsive img-centered" src="img/portfolio/insertTool.png" alt="">
                                 <p> Created a web-based database solution to store a company's tool information. MariaDB was used to store information and SQL queries were written to easily access tool information.</p>
-                                
+
                                 <p>You can preview the website solution <a target="_blank" a href="https://msci444-db-solution.herokuapp.com/">here</a>. Please note that the SQL connection has been removed to protect the content.</p>
                                 <ul class="list-inline">
                                     <li>Date: April 2016</li>
@@ -575,8 +575,8 @@
                                 <img class="img-responsive img-centered" src="img/portfolio/stockMainPage.png" alt="">
                                 <img class="img-responsive img-centered" src="img/portfolio/networkValues.png">
                                 <p>The user specifies which stocks they're interested in purchasing, also the minimum and maximum number of stocks, and their budget. Microsoft Excel the retrieves the .csv file from Google Finance for each stock's pricing for the last 365 days, using VBA. These input values are then fed into a Artifical Neural Network where the proper weights are calculated to determine the closing price. The recommendations are made based on these closing prices.</p>
-                                
-                                
+
+
                                 <p>Currently working on developing a web version using Python with the same functionality as the Excel file.</p>
                                 <ul class="list-inline">
                                     <li>Date: April 2016 </li>
@@ -614,7 +614,7 @@
                                     <li>Category: Algorithms and Data Structures</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>      
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -653,6 +653,7 @@
 </script>
 
         <script>
+        $(window).on("load", function() {
           $(function(){
               $("#typingAnimation").typed({
               strings: ["an engineering student", "a passionate developer", "a spirited musician", "Shikhar"],
@@ -666,6 +667,7 @@
         function lift(){
             $(".intro-lead-in").addClass("lift-text");
     }
+    });
         </script>
 
 </body>
